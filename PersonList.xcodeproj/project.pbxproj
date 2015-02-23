@@ -14,6 +14,10 @@
 		4FCC9F081A785EDD00AEED5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FCC9F071A785EDD00AEED5F /* Images.xcassets */; };
 		4FCC9F0B1A785EDD00AEED5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FCC9F091A785EDD00AEED5F /* LaunchScreen.xib */; };
 		4FCC9F171A785EDD00AEED5F /* PersonListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FCC9F161A785EDD00AEED5F /* PersonListTests.m */; };
+		FF2ED26F1A9B9EA8006CA9D0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2ED26E1A9B9EA8006CA9D0 /* Person.m */; };
+		FF2ED2721A9B9FE5006CA9D0 /* PersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2ED2711A9B9FE5006CA9D0 /* PersonController.m */; };
+		FF2ED2751A9BA912006CA9D0 /* PersonListViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2ED2741A9BA912006CA9D0 /* PersonListViewDataSource.m */; };
+		FF2ED2781A9BB1B2006CA9D0 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2ED2771A9BB1B2006CA9D0 /* PersonDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		4FCC9F101A785EDD00AEED5F /* PersonListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCC9F151A785EDD00AEED5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FCC9F161A785EDD00AEED5F /* PersonListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonListTests.m; sourceTree = "<group>"; };
+		FF2ED26D1A9B9EA8006CA9D0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FF2ED26E1A9B9EA8006CA9D0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FF2ED2701A9B9FE5006CA9D0 /* PersonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonController.h; sourceTree = "<group>"; };
+		FF2ED2711A9B9FE5006CA9D0 /* PersonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonController.m; sourceTree = "<group>"; };
+		FF2ED2731A9BA912006CA9D0 /* PersonListViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonListViewDataSource.h; sourceTree = "<group>"; };
+		FF2ED2741A9BA912006CA9D0 /* PersonListViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListViewDataSource.m; sourceTree = "<group>"; };
+		FF2ED2761A9BB1B2006CA9D0 /* PersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDetailViewController.h; sourceTree = "<group>"; };
+		FF2ED2771A9BB1B2006CA9D0 /* PersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,14 @@
 				4FCC9EFF1A785EDD00AEED5F /* AppDelegate.m */,
 				4FCC9F011A785EDD00AEED5F /* ViewController.h */,
 				4FCC9F021A785EDD00AEED5F /* ViewController.m */,
+				FF2ED26D1A9B9EA8006CA9D0 /* Person.h */,
+				FF2ED26E1A9B9EA8006CA9D0 /* Person.m */,
+				FF2ED2701A9B9FE5006CA9D0 /* PersonController.h */,
+				FF2ED2711A9B9FE5006CA9D0 /* PersonController.m */,
+				FF2ED2731A9BA912006CA9D0 /* PersonListViewDataSource.h */,
+				FF2ED2741A9BA912006CA9D0 /* PersonListViewDataSource.m */,
+				FF2ED2761A9BB1B2006CA9D0 /* PersonDetailViewController.h */,
+				FF2ED2771A9BB1B2006CA9D0 /* PersonDetailViewController.m */,
 				4FCC9F041A785EDD00AEED5F /* Main.storyboard */,
 				4FCC9F071A785EDD00AEED5F /* Images.xcassets */,
 				4FCC9F091A785EDD00AEED5F /* LaunchScreen.xib */,
@@ -221,6 +241,10 @@
 			files = (
 				4FCC9F031A785EDD00AEED5F /* ViewController.m in Sources */,
 				4FCC9F001A785EDD00AEED5F /* AppDelegate.m in Sources */,
+				FF2ED2781A9BB1B2006CA9D0 /* PersonDetailViewController.m in Sources */,
+				FF2ED2721A9B9FE5006CA9D0 /* PersonController.m in Sources */,
+				FF2ED26F1A9B9EA8006CA9D0 /* Person.m in Sources */,
+				FF2ED2751A9BA912006CA9D0 /* PersonListViewDataSource.m in Sources */,
 				4FCC9EFD1A785EDD00AEED5F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +438,7 @@
 				4FCC9F1C1A785EDD00AEED5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FCC9F1D1A785EDD00AEED5F /* Build configuration list for PBXNativeTarget "PersonListTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +447,7 @@
 				4FCC9F1F1A785EDD00AEED5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
